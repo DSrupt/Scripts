@@ -1,0 +1,4 @@
+for i in `seq -w 01 14`;
+do 
+	wget blob.perl.org/books/beginning-perl/3145_Chap$i.pdf
+done
